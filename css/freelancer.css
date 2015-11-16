@@ -162,6 +162,32 @@ header .intro-text .skills {
 	opacity: 0.5;
 }
 
+.section-title {
+	display: block;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+}
+
+.section-subtitle {
+	display: block;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+@media(min-width:768px) {
+	.section-title {
+		font-size: 3.5em;
+	}
+
+	.section-subtitle {
+		font-size: 2em;
+	}
+}
+
 .big-letter {
 	border: solid 1px #FFF;
 	border-radius: 128px;
