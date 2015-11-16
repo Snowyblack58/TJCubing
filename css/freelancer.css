@@ -124,6 +124,16 @@ header .intro-text .skills {
     }
 }
 
+@media(max-width:768px) {
+	.navbar-toggle {
+		margin-right: 0px;
+	}
+	
+	.navbar-fixed-top {
+		padding-right: 15px;	
+	}
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -150,6 +160,32 @@ header .intro-text .skills {
 
 .past-competition {
 	opacity: 0.5;
+}
+
+.section-title {
+	display: block;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+}
+
+.section-subtitle {
+	display: block;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+@media(min-width:768px) {
+	.section-title {
+		font-size: 3.5em;
+	}
+
+	.section-subtitle {
+		font-size: 2em;
+	}
 }
 
 .big-letter {
