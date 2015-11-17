@@ -107,11 +107,12 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+	text-transform: capitalize;
 }
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 
@@ -178,6 +179,17 @@ header .intro-text .skills {
 	font-weight: 700;
 }
 
+
+.success .col-lg-offset-2 {
+	text-align: left;	
+}
+
+@media(min-width:1200px) {
+	.success .col-lg-offset-2 {
+		text-align: right;	
+	}
+}
+
 @media(min-width:768px) {
 	.section-title {
 		font-size: 3.5em;
@@ -186,19 +198,6 @@ header .intro-text .skills {
 	.section-subtitle {
 		font-size: 2em;
 	}
-}
-
-.big-letter {
-	border: solid 1px #FFF;
-	border-radius: 128px;
-	font-size: 64px;
-	width: 128px;
-	height: 128px;
-	text-align: center;
-	background: #FFF;
-	padding-top: 18px;
-	font-weight: bold;
-	color: #f1c40f;
 }
 
 .competition-link {
