@@ -263,6 +263,12 @@ section.success a.active {
     }
 }
 
+.competition {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 25px;
+}
+
 #competitions {
 	background: #f1c40f;
 }
